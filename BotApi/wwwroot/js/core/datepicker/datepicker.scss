@@ -1,0 +1,15 @@
+.react-datepicker-popper {
+  z-index: 100;
+}
+
+.react-datepicker__close-icon::after {
+  background-color: #ffffff;
+  color: #797777;
+  padding-bottom: 25%;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+// .react-datepicker-wrapper {
+//   width: 100%;
+// }

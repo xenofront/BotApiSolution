@@ -1,0 +1,29 @@
+{
+  "version": "2.0",
+  "compileOnSave": false,
+  "exclude": ["obj", "bin"],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmit": true,
+    "pretty": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "baseUrl": "wwwroot",
+    "paths": {
+      "@*": ["js/*"],
+      "@css/*": ["css/*"],
+      "@images/*": ["images/*"]
+    }
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "resolveGlobs": true,
+    "forkChecker": true
+  }
+}
